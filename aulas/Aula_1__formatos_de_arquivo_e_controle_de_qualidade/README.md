@@ -23,6 +23,15 @@ Para instalar os softwares que serão utilizados, no Ubuntu é possível utiliza
 $ sudo apt install sra-toolkit fastqc trimmomatic
 ```
 
+É possível também instalar estes programas no macOS com uso dos comandos:
+
+```
+$ brew sratoolkit
+$ brew install fastqc
+$ brew tap brewsci/bio
+$ brew install trimmomatic
+```
+
 ## Download dos dados
 
 Para este tutorial utilizaremos dois **datasets** (SRA:DRR084179, ERR2730419) com dados produzidos pela plataforma de sequenciamento Illumina MiSeq para o organismo **Escherichia coli**.
